@@ -1,0 +1,551 @@
+*{
+    background: #ffffff;
+}
+.header{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    position: sticky;   /* Bu kısım incelenecek */
+    top: 0;
+}
+/* HEADER LOGO */
+.header .header-logo{
+   position: absolute;
+   left: 21%;
+   right: 72.42%;
+   top: 35px;
+   bottom: 0%;
+   height: 52px;
+   width: 65px;
+   border-radius: 0px;
+   cursor: pointer;
+}
+/* HEADER PHARMACY TEXT */
+.header .header-pharmacy{
+   position: absolute;
+   left: 24.4%;
+   right: 0%;
+   bottom: 30.02%;
+   background: #90B85F;
+   height: 21.39000129699707px;
+   width: 168.58358764648438px;
+   top: 50px;
+   border-radius: 0px;
+   cursor: pointer;
+}
+/* HEADER HOMEPAGE TEXT */
+.header .header-homepage-btn{
+    position: absolute;
+    width: 160px;
+    height: 49px;
+    left: 750px;
+    top: 33px;
+    background: #F5F6FA;
+    border-radius: 100px;
+    border: none;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    background-color:#ffffff ;
+    cursor: pointer;
+    transition-property: background-color;
+    transition-duration: 1.5s;
+}
+.header .header-homepage-btn:hover{
+    background: #F5F6FA;
+    border-radius: 100px;
+    
+}
+/* HEADER All pharmacies TEXT */
+.header .header-all-pharmacies{
+   position: absolute;
+   width: 119px;
+   height: 24px;
+   left: 940px;
+   top: 37px;
+   font-size: 16px;
+   line-height: 24px;
+   color: #000000;
+   cursor: pointer;
+}
+/* HEADER Add new TEXT */
+.header .header-add-new{
+   position: absolute;
+   width: 71px;
+   height: 24px;
+   left: 1100px;
+   top: 37px;
+   font-size: 16px;
+   line-height: 24px;
+   color: #000000;
+   cursor: pointer;
+}
+/* HEADER Contact TEXT */
+.header .header-contact{
+   position: absolute;
+   width: 66px;
+   height: 24px;
+   left: 1220px;
+   top: 37px;
+   font-size: 16px;
+   line-height: 24px;
+   color: #000000;
+   cursor: pointer;
+}
+/* HEADER Login LOGIN*/
+.header .header-login-btn{
+    position: absolute;
+    width: 160px;
+    height: 49px;
+    left: 1356px;
+    top: 33px;
+    background: #84BC54;
+    border-radius: 100px;
+    border: none;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    background-color:#84BC54 ;
+    cursor: pointer;
+    transition-property: background-color;
+    transition-duration: 1.5s;
+}
+.header .header-login-btn:hover{
+    background:#ffffff;
+    border: 2px solid #84BC54;
+    border-radius: 100px;
+    color: #84BC54;
+}
+/*  SEARCH  */
+.search .search-img{
+    position: absolute;
+    width: 1110px;
+    height: 251px;
+    left: 405px;
+    top: 174px;
+    filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.05));
+    border-radius: 10px;
+}
+.search .search-input{
+   position: absolute;
+   width: 498px;
+   height: 62px;
+   left: 711px;
+   top: 269px;
+   background: #FFFFFF;
+   border-radius: 100px;
+   color:  #000000;
+   border: none;
+   outline: none;
+}
+.search .search-input input{
+    flex: 1;
+    margin-left: 60px;
+    padding-top: 23px;
+    outline: none;
+    border: none;
+    height: 17px;
+    width: 390px;
+}
+.search .search-input .material-icons{
+    position: absolute;
+    left: 10px;
+    top: 13px;
+    color:#9B9B9B;
+    font-size: 35px;
+    cursor: pointer;
+}
+/* MAIN  */
+.main .main-btn{
+    position: absolute;
+    width: 1111px;
+    height: 75px;
+    left: 405px;
+    top: 471px;
+    background: #F5F6FA;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.main .main-btn p{
+    background-color: #F5F6FA;
+    position: absolute;
+    width: 62px;
+    height: 27px;
+    left: 19px;
+    top: 4px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+}
+.main .main-btn button{
+    position: absolute;
+    width: 43.95px;
+    height: 23px;
+    left: 120px;
+    top: 29px;
+    background: #84BC54;
+    border-radius: 100px;
+    border: none;
+    color: white;
+}
+.main .main-btn img{
+    position: absolute;
+    right: 30px;
+    top: 30%;
+    bottom: 29.17%;
+    border: 2px solid #FFFFFF;
+    border-radius: 50px;
+}
+.main .main-btn-2{
+    position: absolute;
+    width: 1085px;
+    height: 75px;
+    left: 431px;
+    top: 574px;
+    background: #F5F6FA;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.main .main-btn-2 p{
+    background-color: #F5F6FA;
+    position: absolute;
+    width: 62px;
+    height: 27px;
+    left: 19px;
+    top: 4px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+}
+.main .main-btn-2 img{
+    position: absolute;
+    right: 30px;
+    top: 30%;
+    bottom: 29.17%;
+    border: 2px solid #FFFFFF;
+    background-color: #F5F6FA;
+    border-radius: 50px;
+}
+.main .main-btn-2 button{
+    position: absolute;
+    width: 43.95px;
+    height: 23px;
+    left: 110px;
+    top: 26px;
+    background: #84BC54;
+    border-radius: 100px;
+    border: none;
+    color: white;
+}
+.main .main-btn-3{
+    position: absolute;
+    width: 1085px;
+    height: 75px;
+    left: 475px;
+    top: 690px;
+    background: #F5F6FA;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition-property: background-color;
+    transition-duration: 1s;
+}
+.main .main-btn-3:hover{
+    background-color: #FFFFFF;
+    border: 2px solid #F5F6FA;
+    
+}
+.main .main-btn-3 p{
+    position: absolute;
+    width: 108px;
+    height: 27px;
+    left: 12px;
+    top: 1px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    background-color: #F5F6FA;
+}
+.main .main-btn-3 button{
+    position: absolute;
+    width: 200.95px;
+    height: 23px;
+    left: 130px;
+    top: 30px;
+    background: #84BC54;
+    border-radius: 100px;
+    border: none;
+    color: white;
+}
+.main .main-btn-3 span{
+   position: absolute;
+   width: 319px;
+   height: 21px;
+   left: 360px;
+   top: 23px;
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 21px;
+   background-color: #F5F6FA;
+}
+.main .main-btn-3 .img1{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    right: 120px;
+    top: 24px;
+    background-color: #F5F6FA;
+    border-radius: 50px;
+ }
+ .main .main-btn-3 .img2{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    right: 80px;
+    top: 24px;
+    background-color: #F5F6FA;
+    border-radius: 50px;
+ }
+ .main .main-btn-3 .img3{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    right: 40px;
+    top: 24px;
+    background-color: #F5F6FA;
+    border-radius: 50px;
+ }
+ .main .main-btn-4{
+    position: absolute;
+    width: 1085px;
+    height: 75px;
+    left: 475px;
+    top: 785px;
+    background: #F5F6FA;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition-property: background-color;
+    transition-duration: 1s;
+ }
+ .main .main-btn-4:hover{
+    background-color: #FFFFFF;
+    border: 2px solid #F5F6FA;
+}
+ .main .main-btn-4 p{
+    position: absolute;
+    width: 108px;
+    height: 27px;
+    left: 12px;
+    top: 1px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    background-color: #F5F6FA;
+}
+.main .main-btn-4 button{
+    position: absolute;
+    width: 200.95px;
+    height: 23px;
+    left: 130px;
+    top: 30px;
+    background: #84BC54;
+    border-radius: 100px;
+    border: none;
+    color: white;
+}
+.main .main-btn-4 span{
+   position: absolute;
+   width: 319px;
+   height: 21px;
+   left: 360px;
+   top: 24px;
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 21px;
+   background-color: #F5F6FA;
+}
+.main .main-btn-4 .img1{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    right: 120px;
+    top: 24px;
+    background-color: #F5F6FA;
+    border-radius: 50px;
+ }
+ .main .main-btn-4 .img2{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    right: 80px;
+    top: 24px;
+    background-color: #F5F6FA;
+    border-radius: 50px;
+ }
+ .main .main-btn-4 .img3{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    right: 40px;
+    top: 24px;
+    background-color: #F5F6FA;
+    border-radius: 50px;
+ }
+ .main .main-btn-5{
+    position: absolute;
+    width: 1085px;
+    height: 75px;
+    left: 475px;
+    top: 880px;
+    background: #F5F6FA;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition-property: background-color;
+    transition-duration: 1s;
+ }
+ .main .main-btn-5:hover{
+    background-color: #FFFFFF;
+    border: 2px solid #F5F6FA;
+}
+ .main .main-btn-5 p{
+    position: absolute;
+    width: 108px;
+    height: 27px;
+    left: 12px;
+    top: 1px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    background-color: #F5F6FA;
+}
+.main .main-btn-5 button{
+    position: absolute;
+    width: 200.95px;
+    height: 23px;
+    left: 130px;
+    top: 30px;
+    background: #84BC54;
+    border-radius: 100px;
+    border: none;
+    color: white;
+}
+.main .main-btn-5 span{
+   position: absolute;
+   width: 319px;
+   height: 21px;
+   left: 360px;
+   top: 24px;
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 21px;
+   background-color: #F5F6FA;
+}
+.main .main-btn-5 .img1{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    right: 120px;
+    top: 24px;
+    background-color: #F5F6FA;
+    border-radius: 50px;
+ }
+ .main .main-btn-5 .img2{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    right: 80px;
+    top: 24px;
+    background-color: #F5F6FA;
+    border-radius: 50px;
+ }
+ .main .main-btn-5 .img3{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    right: 40px;
+    top: 24px;
+    background-color: #F5F6FA;
+    border-radius: 50px;
+ }
+ /* FOOTER */
+ .footer .logos{
+    position: absolute;
+    width: 235.65px;
+    height: 52px;
+    left: 837px;
+    top: 1200px;
+    background-color: #F5F6FA;
+    background: transparent;
+ }
+ .footer .p .p3{
+    position: absolute;
+    width: 223px;
+    height: 41px;;
+    left: 850px;
+    top: 1400px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600, Semi-Bold;
+    font-size: 27px;
+    text-align: center;
+    background-color:#E6F4EF ;
+    color: #24A85C;
+    line-height: 40px;
+ }
+ .footer .rec{
+    position: absolute;
+    width: 1700px;
+    height: 649px;
+    left: 0px;
+    top: 1300px;
+    background: #E6F4EF;
+ }
+ .footer .p .p1{
+    position: absolute;
+    width: 768px;
+    height: 96px;
+    left: 589px;
+    top: 1500px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight:700, Bold;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    background-color:#E6F4EF ;
+    color: #7CB39F;
+ }
+ .footer .p .p2{
+    position: absolute;
+    width: 301px;
+    height: 24px;
+    left: 809px;
+    top: 1800px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    background-color:#E6F4EF ;
+ }
