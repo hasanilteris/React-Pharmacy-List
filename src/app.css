@@ -8,6 +8,7 @@
     position: sticky;   /* Bu kısım incelenecek */
     top: 0;
 }
+
 /* HEADER LOGO */
 .header .header-logo{
    position: absolute;
@@ -20,6 +21,7 @@
    border-radius: 0px;
    cursor: pointer;
 }
+
 /* HEADER PHARMACY TEXT */
 .header .header-pharmacy{
    position: absolute;
@@ -33,6 +35,7 @@
    border-radius: 0px;
    cursor: pointer;
 }
+
 /* HEADER HOMEPAGE TEXT */
 .header .header-homepage-btn{
     position: absolute;
@@ -56,6 +59,7 @@
     border-radius: 100px;
     
 }
+
 /* HEADER All pharmacies TEXT */
 .header .header-all-pharmacies{
    position: absolute;
@@ -80,6 +84,7 @@
    color: #000000;
    cursor: pointer;
 }
+
 /* HEADER Contact TEXT */
 .header .header-contact{
    position: absolute;
