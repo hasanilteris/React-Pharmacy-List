@@ -2,8 +2,10 @@ import React from 'react'
 import logos from './footer-images/LOGO.png'
 import rec from './footer-images/rec.png'
 
+
 function Footer() {
   return (
+    
     <div className='footer'>
        <div className='logos'>
             <img src={logos} alt="" />
@@ -17,6 +19,8 @@ function Footer() {
            <p className='p3'>Pharmacies Site</p>
        </div>
     </div>
+
   )
 }
+
 export default Footer
