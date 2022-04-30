@@ -6,6 +6,7 @@ import phone from './main-images/phone.png'
 import "@fontsource/poppins";
 import axios from "axios";
 
+
 function Main() {
   const [city,setCity]=useState("");
 
@@ -17,10 +18,12 @@ function Main() {
   {axios.get("https://api.collectapi.com/health/dutyPharmacy?ilce=%C3%87ankara&il=Ankara").then(res =>setCity(res.data[0].title))}
 
 
+  
   return (
     <div className='main'>
         <button className='main-btn'>
           <p>Samsun</p>
+    
       {/* <p>{city}</p>  Yazılacak  */}   
           <button>77</button>
           <img src={collapse} alt={''} />
@@ -57,4 +60,5 @@ function Main() {
     </div>
   )
 }
+
 export default Main
