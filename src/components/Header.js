@@ -3,9 +3,12 @@ import logo from './header-images/logo.png';
 import pharmacy from './header-images/pharmacy.png';
 import "@fontsource/poppins";
 
+
 function Header() {
   return (
+    
     /* Header */
+    
     <div className='header'>
       <div className='header-logo'>
         <img src={logo} alt="" />
@@ -20,5 +23,7 @@ function Header() {
       <button style={{fontFamily:'poppins'}} className='header-login-btn'>Login</button>
     </div>
   )
+  
 }
+
 export default Header
