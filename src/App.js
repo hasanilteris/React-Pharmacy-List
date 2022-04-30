@@ -6,7 +6,6 @@ import Search from "./components/Search";
 import Footer from "./components/Footer";
 
 function App() {
-  
   return (
   <div>
     <Header />
@@ -16,5 +15,4 @@ function App() {
   </div>
   );
 }
-
 export default App;
