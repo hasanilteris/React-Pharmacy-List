@@ -2,7 +2,6 @@ import React from 'react'
 import searchimg from './search-images/search.png';
 import "@fontsource/poppins";
 
-
 function Search() {
   
   return (
@@ -15,5 +14,4 @@ function Search() {
     </div>
   )
 }
-
 export default Search
