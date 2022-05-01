@@ -3,7 +3,6 @@ import logo from './header-images/logo.png';
 import pharmacy from './header-images/pharmacy.png';
 import "@fontsource/poppins";
 
-
 function Header() {
   return (
     
@@ -25,5 +24,4 @@ function Header() {
   )
   
 }
-
 export default Header
