@@ -2,7 +2,6 @@ import React from 'react'
 import logos from './footer-images/LOGO.png'
 import rec from './footer-images/rec.png'
 
-
 function Footer() {
   return (
     
@@ -22,5 +21,4 @@ function Footer() {
 
   )
 }
-
 export default Footer
