@@ -8,7 +8,6 @@
     position: sticky;   /* Bu kısım incelenecek */
     top: 0;
 }
-
 /* HEADER LOGO */
 .header .header-logo{
    position: absolute;
@@ -21,7 +20,6 @@
    border-radius: 0px;
    cursor: pointer;
 }
-
 /* HEADER PHARMACY TEXT */
 .header .header-pharmacy{
    position: absolute;
