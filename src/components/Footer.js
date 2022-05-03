@@ -4,7 +4,6 @@ import rec from './footer-images/rec.png'
 
 function Footer() {
   return (
-    
     <div className='footer'>
        <div className='logos'>
             <img src={logos} alt="" />
