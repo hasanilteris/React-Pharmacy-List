@@ -5,7 +5,6 @@ import "@fontsource/poppins";
 
 function Header() {
   return (
-    
     /* Header */
     
     <div className='header'>
@@ -22,6 +21,5 @@ function Header() {
       <button style={{fontFamily:'poppins'}} className='header-login-btn'>Login</button>
     </div>
   )
-  
 }
 export default Header
