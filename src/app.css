@@ -9,6 +9,7 @@
     top: 0;
 }
 /* HEADER LOGO */
+
 .header .header-logo{
    position: absolute;
    left: 21%;
@@ -21,6 +22,7 @@
    cursor: pointer;
 }
 /* HEADER PHARMACY TEXT */
+
 .header .header-pharmacy{
    position: absolute;
    left: 24.4%;
